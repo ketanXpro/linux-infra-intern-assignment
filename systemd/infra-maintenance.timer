@@ -1,0 +1,8 @@
+[Unit]
+Description=Run Maintenance Daily
+
+[Timer]
+OnCalendar=daily
+
+[Install]
+WantedBy=timers.target

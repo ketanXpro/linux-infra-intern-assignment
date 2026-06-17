@@ -1,0 +1,6 @@
+[Unit]
+Description=Infra Maintenance Task
+
+[Service]
+Type=oneshot
+ExecStart=/home/ketan03/linux-infra-intern-assignment/scripts/maintenance.sh

@@ -1,0 +1,9 @@
+[Unit]
+Description=infra Demo Health Server
+
+[Servicee]
+ExecStart=/usr/bin/python3/home/ketan03/linux-infra-intern-assignment/app/heath_server.py
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
