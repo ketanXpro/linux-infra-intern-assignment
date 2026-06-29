@@ -1,12 +1,11 @@
 Markdown
 
-# Linux Infrastructure Intern Assignment
+# Linux Server Provisioning & Automation Lab
 
 ## Overview
 
-This project demonstrates Linux infrastructure provisioning, validation, maintenance automation, service management, and documentation using Ubuntu Server running in a local VirtualBox virtual machine.
+This project demonstrates automated Linux server provisioning, validation, maintenance automation, systemd service management, and basic security hardening using Ubuntu Server in a local VirtualBox environment. The project focuses on creating a reproducible deployment-ready server using Bash automation and Linux administration best practices.
 
-The assignment includes provisioning scripts, validation scripts, maintenance automation, systemd services, documentation, and evidence generated during testing.
 
 ---
 
@@ -24,7 +23,7 @@ All work was completed and tested on a local Ubuntu Server VM. No cloud VM, clou
 ## Project Structure
 
 ```text
-linux-infra-intern-assignment/
+linux-server-provisioning-automation-lab/
 
 ├── app/
 │   └── health server application
@@ -89,8 +88,7 @@ Used to manage application startup and automated maintenance tasks.
 ### 1. Clone Repository
 
 ```bash
-git clone <repository-url>
-cd linux-infra-intern-assignment
+git clone https://github.com/ketanXpro/linux-server-provisioning-automation-lab.git cd linux-server-provisioning-automation-lab
 ```
 
 ### 2. Make Scripts Executable
@@ -177,7 +175,7 @@ Location:
 docs/hardening-checklist.md
 ```
 
-Contains security and hardening recommendations applied during the assignment.
+Contains security hardening measures that were implemented, along with explanations for configurations that were intentionally left unchanged.
 
 ### Test Plan
 
@@ -253,37 +251,38 @@ docs/hardening-checklist.md
 
 ## Demo Video
 
-Demo Video Link:
+Demo Video
 
-Google Drive Video:
+Google Drive:
 
 https://drive.google.com/drive/folders/1gk4jQnRSMcqs40xzZqegpAjsiDT3cJ7N
 
 ---
 
-## AI Assistance Notes
+## Features
 
-AI tools (ChatGPT) were used for:
+- Automated Linux server provisioning using Bash scripts
+- Systemd service and timer configuration for service management
+- Python-based HTTP health monitoring service
+- Automated infrastructure validation and health checks
+- Environment-based configuration using `.env` files
+- Basic Linux security hardening with documented practices
+- Maintenance automation for periodic system tasks
+- Local VirtualBox VM deployment and reproducible setup
+- Comprehensive documentation and troubleshooting guides
+- Validation and reboot-survival testing
 
-* Linux command explanation
-* VirtualBox shared folder troubleshooting
-* Shell scripting guidance
-* Documentation structure guidance
-* GitHub workflow assistance
-* General Linux administration learning
+---
 
-Manual verification performed:
+## Technologies Used
 
-* All commands executed manually inside Ubuntu Server
-* Provisioning process tested manually
-* Validation process tested manually
-* Systemd configuration verified manually
-* Shared folder configuration verified manually
-* Archive generation verified manually
-* Repository accessibility verified manually
-* Final submission package verified manually
-
-All submitted work was executed, tested, and verified within the local Ubuntu VirtualBox environment.
+- **Operating System:** Ubuntu Server
+- **Virtualization:** Oracle VirtualBox
+- **Scripting:** Bash
+- **Programming Language:** Python
+- **Service Manager:** systemd
+- **Version Control:** Git & GitHub
+- **Command-Line Tools:** Linux CLI
 
 ---
 
@@ -292,7 +291,4 @@ All submitted work was executed, tested, and verified within the local Ubuntu Vi
 Ketan Kumbhar
 
 B.Tech Information Technology
-
-Ubuntu Server Infrastructure Assignment
-
 
